@@ -1,0 +1,15 @@
+{
+  "name": "openai-sql-generator",
+  "version": "1.0.0",
+  "description": "This is a full stack app that converts natural language English to SQL queries using OpenAI's GPT-3.5 architecture and text completion API. The app has a client and a server, each with its own npm packages.",
+  "scripts": {
+    "dev": "npm run dev --prefix server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yashraj Chavan",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.2.0",
+    "nodemon": "^3.1.10"
+  }
+}

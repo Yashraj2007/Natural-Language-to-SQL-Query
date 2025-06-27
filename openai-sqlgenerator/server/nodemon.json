@@ -1,0 +1,12 @@
+{
+  "watch": ["index.js"],
+  "execMap": {
+    "js": "node --watch"
+  },
+  "env": {
+    "PORT": "5000",
+    "PORT2": "5000"
+
+    
+  }
+}
